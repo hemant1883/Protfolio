@@ -160,7 +160,7 @@ export const initialPortfolioData: PortfolioData = {
   messages: [],
   resume: {
     fileName: 'Hemant_Singh_Rana_Resume.pdf',
-    fileUrl: 'https://github.com/hemant1883',
+    fileUrl: 'https://drive.google.com/file/d/1Of5fiqg7i3X_nOlEFxTMLTTc0Os6xaux/view?pli=1',
     lastUpdated: '2026-08-17',
     fileSize: '184 KB',
   },
