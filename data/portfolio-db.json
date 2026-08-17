@@ -1,0 +1,475 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "passwordHash": "$2b$10$cRARdHVRRgQRcaSJphjXOehKmDPEN3VXVdG//8X.hx89CyQdnDAG.",
+      "email": "iamhemant1289@gmail.com",
+      "role": "ADMIN"
+    }
+  ],
+  "profile": {
+    "name": "Hemant Singh Rana",
+    "title": "Full-Stack Software Engineer",
+    "subTitle": "Java 21, Spring Boot 3 & React.js Developer",
+    "email": "iamhemant1289@gmail.com",
+    "phone": "+91-9082712612",
+    "location": "Dehradun, Uttarakhand, India",
+    "profileImageUrl": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800",
+    "heroBio": "Dynamic Full-Stack Software Engineer specializing in backend development using Java 21, Spring Boot 3, and React.js. Experienced in designing scalable RESTful APIs, implementing secure JWT-based authentication, and developing database-driven applications.",
+    "status": "Available for SDE Roles & Internships",
+    "typingWords": [
+      "Full-Stack Software Engineer",
+      "Java 21 & Spring Boot 3",
+      "React.js & Tailwind CSS",
+      "RESTful APIs & Clean Architecture",
+      "Smart India Hackathon Winner"
+    ],
+    "socialLinks": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com/hemant1883",
+        "iconName": "Github"
+      },
+      {
+        "platform": "LinkedIn",
+        "url": "https://linkedin.com/in/hemant-singh",
+        "iconName": "Linkedin"
+      }
+    ]
+  },
+  "about": {
+    "headline": "Dynamic Full-Stack Software Engineer specializing in Java 21, Spring Boot 3, and React.js.",
+    "careerObjective": "Passionate about applying Clean Architecture, DTO patterns, and object-oriented design principles to develop scalable, maintainable software solutions.",
+    "journey": "Specializing in high-concurrency backend architecture and modern responsive web interfaces. Experienced in designing scalable RESTful APIs, implementing secure JWT-based authentication, developing database-driven applications using Spring Data JPA and Hibernate, and building interactive frontend modules with React.js.",
+    "education": [
+      {
+        "degree": "Bachelor of Technology (B.Tech.) in Computer Science and Engineering",
+        "institution": "Swami Rama Himalayan University, Dehradun",
+        "duration": "Aug 2023 – Ongoing",
+        "grade": "CGPA: 7.5 | NAAC A+ Grade",
+        "highlights": [
+          "Java 21 Virtual Threads & Spring Boot 3",
+          "Data Structures & Algorithms (C++ / Java)",
+          "Database Management Systems & MySQL Optimization",
+          "RESTful APIs & System Design"
+        ]
+      },
+      {
+        "degree": "Intermediate (XII)",
+        "institution": "Holy Angel Sr. Sec. School, Uttarakhand",
+        "duration": "May 2023",
+        "grade": "Percentage: 82%",
+        "highlights": [
+          "Physics, Chemistry, Mathematics & Computer Science"
+        ]
+      }
+    ],
+    "quickFacts": [
+      {
+        "label": "Education",
+        "value": "B.Tech CSE (Ongoing)"
+      },
+      {
+        "label": "Core Stack",
+        "value": "Java 21, Spring Boot 3, React, MySQL"
+      },
+      {
+        "label": "SIH Hackathon",
+        "value": "1st Rank (50+ Teams)"
+      },
+      {
+        "label": "Location",
+        "value": "Dehradun, India"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "id": 1,
+      "name": "Java",
+      "category": "Programming",
+      "icon": "Coffee",
+      "level": 92,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 2,
+      "name": "C++",
+      "category": "Programming",
+      "icon": "Code",
+      "level": 85,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript / TypeScript",
+      "category": "Programming",
+      "icon": "FileCode",
+      "level": 88,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 4,
+      "name": "SQL",
+      "category": "Database",
+      "icon": "Database",
+      "level": 90,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 5,
+      "name": "Spring Boot 3",
+      "category": "Backend",
+      "icon": "Server",
+      "level": 90,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 6,
+      "name": "Spring Security & JWT",
+      "category": "Backend",
+      "icon": "Shield",
+      "level": 88,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 7,
+      "name": "Spring MVC & REST APIs",
+      "category": "Backend",
+      "icon": "Layers",
+      "level": 92,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 8,
+      "name": "Spring Data JPA / Hibernate",
+      "category": "Backend",
+      "icon": "HardDrive",
+      "level": 89,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 9,
+      "name": "React 19",
+      "category": "Frontend",
+      "icon": "Globe",
+      "level": 88,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 10,
+      "name": "Tailwind CSS",
+      "category": "Frontend",
+      "icon": "Palette",
+      "level": 92,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 11,
+      "name": "HTML5 & CSS3",
+      "category": "Frontend",
+      "icon": "Layout",
+      "level": 95,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 12,
+      "name": "MySQL",
+      "category": "Database",
+      "icon": "Database",
+      "level": 90,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 13,
+      "name": "Git & GitHub",
+      "category": "Tools",
+      "icon": "GitBranch",
+      "level": 92,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 14,
+      "name": "Maven",
+      "category": "Tools",
+      "icon": "Box",
+      "level": 88,
+      "experienceLevel": "Advanced"
+    },
+    {
+      "id": 15,
+      "name": "Postman & Swagger API",
+      "category": "Tools",
+      "icon": "Send",
+      "level": 90,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 16,
+      "name": "IntelliJ IDEA & VS Code",
+      "category": "Tools",
+      "icon": "Terminal",
+      "level": 94,
+      "experienceLevel": "Expert"
+    },
+    {
+      "id": 17,
+      "name": "Docker & Containers",
+      "category": "Tools",
+      "icon": "Container",
+      "level": 80,
+      "experienceLevel": "Intermediate"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "College Management System (Full-Stack Web Application)",
+      "description": "High-concurrency academic platform supporting Students, Faculty, and Admin using Java 21 Virtual Threads, Spring Security, and React.js.",
+      "longDescription": "• Architected a high-concurrency management platform supporting Students, Faculty, and Admin using Java 21 Virtual Threads for improved scalability and performance.\n• Engineered an Automated Faculty Status Engine that reduced scheduling conflicts by 50% through real-time timetable scanning and stateless session management using Spring Security.\n• Developed a dynamic exam seating visualization module using React.js and Tailwind CSS, transforming relational database records into an interactive graphical UI.\n• Improved application responsiveness by 40% through efficient client-side polling and centralized global exception handling for reliable real-time data synchronization.\n• Applied Clean Code principles and DTO patterns to decouple the persistence layer from the RESTful API layer, reducing payload size by 20%.",
+      "technologies": [
+        "Java 21",
+        "Spring Boot 3",
+        "React.js",
+        "MySQL",
+        "Spring Security",
+        "Tailwind CSS"
+      ],
+      "githubUrl": "https://github.com/hemant1883/Mini_CMS",
+      "liveDemoUrl": "https://github.com/hemant1883/Mini_CMS",
+      "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=1200",
+      "screenshots": [],
+      "date": "2026",
+      "category": "Full Stack",
+      "status": "Completed",
+      "featured": true,
+      "result": "40% Higher Responsiveness & 50% Less Conflicts"
+    },
+    {
+      "id": 2,
+      "title": "StayEase — Hotel Booking Web Application",
+      "description": "Scalable hotel reservation platform featuring secure Role-Based Access Control (RBAC), JWT authentication, JPA entity relationships, and Railway deployment.",
+      "longDescription": "• Developed a scalable hotel reservation platform with secure Role-Based Access Control (RBAC), JWT-based authentication, and RESTful APIs for user and booking management.\n• Designed and implemented JPA entity relationships to manage hotel inventory efficiently while preventing race conditions during overlapping booking requests.\n• Optimized MySQL database performance by 30% through efficient indexing and custom SQL query optimization for complex availability searches.\n• Streamlined deployment using automated deployment workflows on Railway, ensuring 99.9% uptime for the production environment.",
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "React.js",
+        "MySQL",
+        "JWT",
+        "Railway",
+        "Tailwind CSS"
+      ],
+      "githubUrl": "https://github.com/hemant1883/HotelBooking",
+      "liveDemoUrl": "https://github.com/hemant1883/HotelBooking",
+      "imageUrl": "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=1200",
+      "screenshots": [],
+      "date": "2026",
+      "category": "Full Stack",
+      "status": "Completed",
+      "featured": true,
+      "result": "30% DB Query Optimization & 99.9% Uptime"
+    }
+  ],
+  "certificates": [
+    {
+      "id": 1,
+      "title": "Certification – Full-Stack Java Development (Spring Boot & React)",
+      "organization": "Full-Stack Java Development",
+      "issueDate": "2025",
+      "credentialId": "FS-JAVA-2025",
+      "certificateUrl": "https://github.com/hemant1883",
+      "description": "Comprehensive credential covering Java 21, Spring Boot 3, RESTful APIs, Spring Security, Hibernate ORM, and React.js."
+    }
+  ],
+  "achievements": [
+    {
+      "id": 1,
+      "title": "Winner – Smart India Hackathon (SIH) 2025 Internal Ideathon",
+      "category": "Hackathon Winner",
+      "organization": "Smart India Hackathon (SIH) 2025 / SRHU",
+      "date": "2025",
+      "description": "Ranked 1st among 50+ teams in the internal ideathon for designing and presenting an automated, high-scalability software solution.",
+      "proofUrl": "https://github.com/hemant1883",
+      "icon": "Trophy"
+    },
+    {
+      "id": 2,
+      "title": "Top 50 Finalist – SAARTHI National Level Hackathon",
+      "category": "National Hackathon",
+      "organization": "SAARTHI National Level Hackathon",
+      "date": "2025",
+      "description": "Selected among the top 50 national finalist teams for engineering an innovative distributed full-stack architecture.",
+      "proofUrl": "https://github.com/hemant1883/saarthi-hackthon1",
+      "icon": "Award"
+    },
+    {
+      "id": 3,
+      "title": "Certification – Full-Stack Java Development (Spring Boot & React)",
+      "category": "Professional Certification",
+      "organization": "Full-Stack Java Program",
+      "date": "2025",
+      "description": "Mastered Java 21, Spring Boot 3, Spring Security, Hibernate ORM, Spring Data JPA, and modern React.js frontend architecture.",
+      "proofUrl": "https://github.com/hemant1883",
+      "icon": "Code"
+    }
+  ],
+  "messages": [],
+  "resume": {
+    "fileUrl": "/uploads/resume-1785391726921-56725142.pdf",
+    "fileName": "Hemant Singh (resume).pdf",
+    "lastUpdated": "Jul 2026",
+    "fileSize": "133 KB"
+  },
+  "githubStats": {
+    "username": "hemant1883",
+    "publicRepos": 14,
+    "followers": 0,
+    "following": 0,
+    "totalStars": 185,
+    "languages": [
+      {
+        "name": "Java",
+        "percentage": 48,
+        "color": "#b07219"
+      },
+      {
+        "name": "TypeScript / JavaScript",
+        "percentage": 32,
+        "color": "#3178c6"
+      },
+      {
+        "name": "SQL",
+        "percentage": 12,
+        "color": "#e38c00"
+      },
+      {
+        "name": "HTML/CSS",
+        "percentage": 8,
+        "color": "#e34c26"
+      }
+    ],
+    "recentRepos": [
+      {
+        "id": 1309624159,
+        "name": "HotelBooking",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "url": "https://github.com/hemant1883/HotelBooking",
+        "updatedAt": "2026-07-25"
+      },
+      {
+        "id": 1311834750,
+        "name": "Mini_CMS",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "url": "https://github.com/hemant1883/Mini_CMS",
+        "updatedAt": "2026-07-25"
+      },
+      {
+        "id": 1284892993,
+        "name": "saarthi-hackthon1",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "Code",
+        "url": "https://github.com/hemant1883/saarthi-hackthon1",
+        "updatedAt": "2026-06-30"
+      },
+      {
+        "id": 1271940052,
+        "name": "DAA-project",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "url": "https://github.com/hemant1883/DAA-project",
+        "updatedAt": "2026-06-17"
+      },
+      {
+        "id": 1271918212,
+        "name": "synapse",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "TypeScript",
+        "url": "https://github.com/hemant1883/synapse",
+        "updatedAt": "2026-06-17"
+      },
+      {
+        "id": 904031745,
+        "name": "FirstDeployBootcamp",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "CSS",
+        "url": "https://github.com/hemant1883/FirstDeployBootcamp",
+        "updatedAt": "2024-12-16"
+      },
+      {
+        "id": 841288082,
+        "name": "myapp",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "JavaScript",
+        "url": "https://github.com/hemant1883/myapp",
+        "updatedAt": "2024-08-12"
+      },
+      {
+        "id": 840962994,
+        "name": "oibsip_taskno.2",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "CSS",
+        "url": "https://github.com/hemant1883/oibsip_taskno.2",
+        "updatedAt": "2024-08-11"
+      },
+      {
+        "id": 840961580,
+        "name": "oibsip_taskno.1",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "url": "https://github.com/hemant1883/oibsip_taskno.1",
+        "updatedAt": "2024-08-11"
+      },
+      {
+        "id": 840963387,
+        "name": "oibsip_taskno.3",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "HTML",
+        "url": "https://github.com/hemant1883/oibsip_taskno.3",
+        "updatedAt": "2024-08-11"
+      },
+      {
+        "id": 828086247,
+        "name": "project-00x",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "CSS",
+        "url": "https://github.com/hemant1883/project-00x",
+        "updatedAt": "2024-07-13"
+      },
+      {
+        "id": 821510708,
+        "name": "new-web-layout",
+        "description": "No description provided.",
+        "stars": 0,
+        "forks": 0,
+        "language": "CSS",
+        "url": "https://github.com/hemant1883/new-web-layout",
+        "updatedAt": "2024-07-03"
+      }
+    ]
+  }
+}
