@@ -57,6 +57,7 @@ export const initialPortfolioData: PortfolioData = {
       },
     ],
     quickFacts: [
+      { label: 'Age', value: '22 Years' },
       { label: 'Degree', value: 'B.Tech CSE (Ongoing)' },
       { label: 'CGPA', value: '7.5 (NAAC A+)' },
       { label: 'SIH Hackathon', value: '1st Rank (50+ Teams)' },
@@ -162,7 +163,7 @@ export const initialPortfolioData: PortfolioData = {
     fileName: 'Hemant_Singh_Rana_Resume.pdf',
     fileUrl: 'https://drive.google.com/file/d/1Of5fiqg7i3X_nOlEFxTMLTTc0Os6xaux/view?pli=1',
     lastUpdated: '2026-08-17',
-    fileSize: '184 KB',
+    fileSize: 'PDF',
   },
   githubStats: {
     username: 'hemant1883',
