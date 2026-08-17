@@ -119,7 +119,7 @@ export function Hero({ profile, resume }: HeroProps) {
           <Sparkles size={16} className="text-accent" />
           <div>
             <strong>7.5 CGPA</strong>
-            <span>B.Tech CSE '26</span>
+            <span>B.Tech CSE '22</span>
           </div>
         </div>
       </div>
