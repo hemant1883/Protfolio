@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ArrowUpRight, Code, Download, Github, Linkedin, MapPin, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Code, FileText, Github, Linkedin, MapPin, Sparkles } from 'lucide-react';
 import { Profile, ResumeData } from '../types';
 
 interface HeroProps {
@@ -81,7 +81,7 @@ export function Hero({ profile, resume }: HeroProps) {
               target="_blank"
               rel="noreferrer"
             >
-              <Download size={15} /> Resume ({resume.fileSize || 'PDF'})
+              <FileText size={15} /> View Resume <ArrowUpRight size={14} />
             </a>
           )}
 
@@ -119,7 +119,7 @@ export function Hero({ profile, resume }: HeroProps) {
           <Sparkles size={16} className="text-accent" />
           <div>
             <strong>7.5 CGPA</strong>
-            <span>B.Tech CSE '22</span>
+            <span>B.Tech CSE '26</span>
           </div>
         </div>
       </div>
