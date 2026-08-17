@@ -1,4 +1,4 @@
-import { ArrowUpRight, FileText, Lock, Menu, ShieldCheck, X } from 'lucide-react';
+import { ArrowUpRight, FileText, Menu, X } from 'lucide-react';
 import { Profile, ResumeData } from '../types';
 
 interface NavbarProps {
@@ -6,19 +6,9 @@ interface NavbarProps {
   resume: ResumeData;
   menuOpen: boolean;
   setMenuOpen: (open: boolean) => void;
-  isAdmin: boolean;
-  onOpenAdmin: () => void;
-  onLogoutAdmin: () => void;
 }
 
-export function Navbar({
-  menuOpen,
-  setMenuOpen,
-  resume,
-  isAdmin,
-  onOpenAdmin,
-  onLogoutAdmin,
-}: NavbarProps) {
+export function Navbar({ menuOpen, setMenuOpen, resume }: NavbarProps) {
   const closeMenu = () => setMenuOpen(false);
 
   return (
@@ -63,21 +53,6 @@ export function Navbar({
             >
               <FileText size={14} /> Resume
             </a>
-          )}
-
-          {isAdmin ? (
-            <div className="admin-status-badge">
-              <button className="admin-pill active" onClick={onOpenAdmin}>
-                <ShieldCheck size={14} /> Admin CMS
-              </button>
-              <button className="admin-logout-btn" onClick={onLogoutAdmin} title="Log out">
-                Logout
-              </button>
-            </div>
-          ) : (
-            <button className="admin-pill" onClick={onOpenAdmin} title="Admin login for CRUD management">
-              <Lock size={13} /> Admin
-            </button>
           )}
 
           <a className="nav-cta" href="#contact" onClick={closeMenu}>
