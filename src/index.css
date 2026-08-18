@@ -433,7 +433,7 @@ section {
 }
 
 .hero-mark {
-  height: 320px;
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -446,6 +446,42 @@ section {
   letter-spacing: -0.2em;
   position: relative;
   background: #141915;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.hero-mark-photo {
+  background: #101411;
+  border-color: #3b4d42;
+}
+
+.hero-profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.hero-mark-photo:hover .hero-profile-img {
+  transform: scale(1.03);
+}
+
+.hero-mark-tag {
+  position: absolute;
+  bottom: 14px;
+  right: 14px;
+  background: rgba(14, 18, 15, 0.85);
+  border: 1px solid #2e3b32;
+  padding: 4px 8px;
+  border-radius: 4px;
+  backdrop-filter: blur(8px);
+  z-index: 2;
+  color: #8b978d;
+  font: 10px 'DM Mono', monospace;
+  letter-spacing: 0.1em;
 }
 
 .hero-mark span:last-of-type {
