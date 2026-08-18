@@ -19,6 +19,24 @@ export function Hero({ profile, resume }: HeroProps) {
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
 
+  const fallbackImages = [
+    profile.profileImageUrl,
+    '/uploads/profilePic.png',
+    'https://raw.githubusercontent.com/hemant1883/Protfolio/main/uploads/profilePic.png',
+    'https://raw.githubusercontent.com/hemant1883/portfolio/main/uploads/profilePic.png',
+  ].filter(Boolean) as string[];
+
+  const [imgSrcIndex, setImgSrcIndex] = useState(0);
+  const [imgError, setImgError] = useState(false);
+
+  const handleImageError = () => {
+    if (imgSrcIndex + 1 < fallbackImages.length) {
+      setImgSrcIndex((prev) => prev + 1);
+    } else {
+      setImgError(true);
+    }
+  };
+
   useEffect(() => {
     const currentWord = words[currentWordIndex % words.length];
     const typingSpeed = isDeleting ? 40 : 80;
@@ -110,16 +128,31 @@ export function Hero({ profile, resume }: HeroProps) {
       </div>
 
       <div className="hero-mark-wrapper">
-        <div className="hero-mark" aria-label="Hemant Singh Rana monogram">
-          <span>H</span>
-          <span>S</span>
-          <small>01 / 06</small>
+        <div
+          className={`hero-mark ${!imgError && fallbackImages[imgSrcIndex] ? 'hero-mark-photo' : ''}`}
+          aria-label={profile.name ? `${profile.name} profile photo` : 'Hemant Singh Rana monogram'}
+        >
+          {!imgError && fallbackImages[imgSrcIndex] ? (
+            <img
+              src={fallbackImages[imgSrcIndex]}
+              alt={profile.name || 'Hemant Singh Rana'}
+              className="hero-profile-img"
+              onError={handleImageError}
+              referrerPolicy="no-referrer"
+            />
+          ) : (
+            <>
+              <span>H</span>
+              <span>S</span>
+            </>
+          )}
+          <small className="hero-mark-tag">01 / 06</small>
         </div>
         <div className="hero-stat-badge">
           <Sparkles size={16} className="text-accent" />
           <div>
             <strong>7.5 CGPA</strong>
-            <span>B.Tech CSE '26</span>
+            <span>B.Tech CSE</span>
           </div>
         </div>
       </div>
