@@ -8,7 +8,7 @@ export const initialPortfolioData: PortfolioData = {
     email: 'iamhemant1289@gmail.com',
     phone: '+91-9082712612',
     location: 'Dehradun, Uttarakhand, India',
-    profileImageUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=800',
+    profileImageUrl: '/uploads/profilePic.png',
     heroBio: 'Dynamic Full-Stack Software Engineer specializing in backend development using Java 21, Spring Boot 3, and React.js. Experienced in designing scalable RESTful APIs, implementing secure JWT-based authentication, developing database-driven applications using Spring Data JPA and Hibernate, and building responsive web interfaces.',
     status: 'Available for SDE Roles & Internships',
     typingWords: [
