@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { ArrowUpRight, Code, FileText, Github, Linkedin, MapPin, Sparkles } from 'lucide-react';
 import { Profile, ResumeData } from '../types';
+import localProfilePic from '../assets/profilePic.png';
 
 interface HeroProps {
   profile: Profile;
@@ -20,10 +21,10 @@ export function Hero({ profile, resume }: HeroProps) {
   const [isDeleting, setIsDeleting] = useState(false);
 
   const fallbackImages = [
+    localProfilePic,
     profile.profileImageUrl,
-    '/uploads/profilePic.png',
     'https://raw.githubusercontent.com/hemant1883/Protfolio/main/uploads/profilePic.png',
-    'https://raw.githubusercontent.com/hemant1883/portfolio/main/uploads/profilePic.png',
+    '/uploads/profilePic.png',
   ].filter(Boolean) as string[];
 
   const [imgSrcIndex, setImgSrcIndex] = useState(0);
