@@ -129,12 +129,12 @@ export function Hero({ profile, resume }: HeroProps) {
 
       <div className="hero-mark-wrapper">
         <div
-          className={`hero-mark ${!imgError && fallbackImages[imgSrcIndex] ? 'hero-mark-photo' : ''}`}
+          className={`hero-mark ${!imgError ? 'hero-mark-photo' : ''}`}
           aria-label={profile.name ? `${profile.name} profile photo` : 'Hemant Singh Rana monogram'}
         >
-          {!imgError && fallbackImages[imgSrcIndex] ? (
+          {!imgError ? (
             <img
-              src={fallbackImages[imgSrcIndex]}
+              src={fallbackImages[imgSrcIndex] || '/uploads/profilePic.png'}
               alt={profile.name || 'Hemant Singh Rana'}
               className="hero-profile-img"
               onError={handleImageError}
