@@ -433,7 +433,7 @@ section {
 }
 
 .hero-mark {
-  height: 340px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -454,6 +454,7 @@ section {
 .hero-mark-photo {
   background: #101411;
   border-color: #3b4d42;
+  font-size: 0;
 }
 
 .hero-profile-img {
